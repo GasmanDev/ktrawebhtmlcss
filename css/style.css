@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+body{
+    background-color: rgb(117, 117, 117);
+}
+header{
+    width: 100%;
+    height: 25vh;
+    background-image: url('/images/headerbg.jpg');
+    background-size: cover;
+}
+.infotitle{
+    width: 100%;
+    height: 3vh;
+    background-color: rgb(0, 150, 150);
+    float: left;
+}
+
+.infotitletext{
+    width: 20%;
+    color: yellow;
+    margin-right: 40%;
+    margin-left: 15%;
+    float: left;
+}
+.infotitlebtn{
+    width: auto;
+    color: white;
+    float: left;
+}
+.logo
+{
+    margin-left: 15%;
+    width: 10%;
+    height: 85%;
+    float: left;
+}
+.logoimg
+{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.titlearea{
+    margin-left: 1%;
+    width: 40%;
+    height: 85%;
+    float: left;
+}
+.titlearea .header{
+    color: rgb(31, 126, 243);
+    padding-top: 40px;
+    float: left;
+}
+.titlearea .info{
+    color: rgb(64, 149, 253);
+    padding-top: 40px;
+    float: left;
+}
+.searcharea{
+    margin-left: 1%;
+    width: 25%;
+    height: 85%;
+    float: left;
+}
+.searchinput{
+    margin-top: 20%;
+    width: 80%;
+    height: 3vh;
+    float: left;
+}
+.searchbtn{
+    text-align: center;
+    padding: auto auto;
+    margin-top: 20%;
+    width: 70px;
+    height: 25px;
+    color: white;
+    background-color: lightseagreen;
+    text-decoration: none;
+    border-radius: 10%;
+    float: left;
+}
+nav {
+    width: 100%;
+    height: 7vh;
+    background-color: whitesmoke;
+}
+.navbtnarea{
+    color: white;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 90px;
+    float: left;
+}
+.navbtn{
+    color: gray;
+    margin-left: 1%;
+    text-decoration: none;
+    float: left;
+}
+.navsearcharea{
+    width: 35%;
+    height: 100%;
+    margin-left: 60px;
+    float: left;
+}
+.navsearchinput{
+    margin-top: 10px;
+    width: 40%;
+    height: 3vh;
+    float: left;
+}
+.navsearchbtn{
+    text-align: center;
+    padding: auto auto;
+    margin-left: 1%;
+    margin-top: 10px;
+    width: 70px;
+    height: 25px;
+    color: white;
+    background-color: lightseagreen;
+    text-decoration: none;
+    border-radius: 10%;
+    float: left;
+}
+.navuserbtn{
+    color: white;
+    background-color: gray;
+    float: left;
+}
+section{
+    margin: 0 auto;
+    width: 100%;
+    height: 75vh;
+    background-color: whitesmoke;
+}
+.bannerinfo {
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    float: left;
+}
+.bannerinfo .infoimg{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.bannerinfo .bannertextarea{
+    margin-left: 5%;
+    margin-top: -150px;
+    border: 1 solid;
+    border-radius: 2%;
+    width: 40%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    float: left;
+}
+.bannerinfo .bannertextarea .title{
+    margin-left: 2%;
+    margin-top: 2%;
+    color: blue;
+    float: left;
+}
+.bannerinfo .bannertextarea .info{
+    margin-left: 2%;
+    margin-top: 2%;
+    color: black;
+    float: left;
+}
+.bannerinfo .bannertextarea .btn{
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 5%;
+    color: black;
+    float: left;
+}
+.postnews {
+    margin-left: 170px;
+    width: 80%;
+    height: 35vh;
+    background-image: url('/images/bginfoimg.jpg');
+    /* background-color: red; */
+    float: left;
+}
+.postarea{
+    margin-left: 2%;
+    width: 30%;
+    height: 35vh;
+    float: left;
+
+}
+.postheader{
+    margin-top:2%;
+    margin-left: 2%;
+    float: left;
+}
+.postheader a{
+    text-decoration: none;
+    float: left;
+}
+.postimg{
+    width: 100%;
+    height: 25%;
+    float: left;
+}
+.postinfo{
+    margin-top: 1%;
+    font-size: 20px;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: lightseagreen;
+}
+.footertext{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    font-size: 30px;
+    color: white;
+    float: left;
+}
